@@ -15,7 +15,7 @@ public class SH_Cuenta_Ahorros extends SH_Cuenta {
         super.retirar(cantidad);
     }
 
-    public static void imprimir(){
-        System.out.println("Saldo = " + saldo);
+    public void imprimir(){
+        System.out.println("Saldo = " + this.saldo);
     }
 }

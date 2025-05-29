@@ -1,8 +1,8 @@
 public class SH_Cuenta {
-    static float saldo;
-    static float tasa;
-    static int depositos=0;
-    static int retiros=0;
+    float saldo;
+    float tasa;
+    int depositos=0;
+    int retiros=0;
 
     public SH_Cuenta(float sado, float tasa) {
     }

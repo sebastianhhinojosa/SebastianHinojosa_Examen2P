@@ -32,7 +32,7 @@ public class Main {
                     Cuenta1.retirar(retiro);
                     break;
                 case 3:
-                    SH_Cuenta_Ahorros.imprimir();
+                    Cuenta1.imprimir();
                     break;
                 case 4:
                     salir = false;
